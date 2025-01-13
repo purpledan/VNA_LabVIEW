@@ -11,12 +11,13 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Clusters" Type="Folder">
-			<Item Name="Config_Cluster.ctl" Type="VI" URL="../Sources/Config_Cluster.ctl"/>
 			<Item Name="Data_Cluster.ctl" Type="VI" URL="../Sources/Data_Cluster.ctl"/>
+		</Item>
+		<Item Name="Config" Type="Folder">
+			<Item Name="VNA_ReadConf.vi" Type="VI" URL="../Sources/VNA_ReadConf.vi"/>
 		</Item>
 		<Item Name="FileIO" Type="Folder">
 			<Item Name="LCR_InsertMeasurements.vi" Type="VI" URL="../Sources/LCR_InsertMeasurements.vi"/>
-			<Item Name="LCR_Logfile.vi" Type="VI" URL="../Sources/LCR_Logfile.vi"/>
 		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="GEN_CulArray.vi" Type="VI" URL="../Sources/GEN_CulArray.vi"/>
@@ -24,7 +25,6 @@
 			<Item Name="GEN_ResetTimer.vi" Type="VI" URL="../Sources/GEN_ResetTimer.vi"/>
 			<Item Name="GEN_States.ctl" Type="VI" URL="../GEN_States.ctl"/>
 			<Item Name="GEN_TimerPerS.vi" Type="VI" URL="../Sources/GEN_TimerPerS.vi"/>
-			<Item Name="GEN_WriteStatus.vi" Type="VI" URL="../Sources/GEN_WriteStatus.vi"/>
 			<Item Name="LCR_AutoChangeUnits.vi" Type="VI" URL="../Sources/LCR_AutoChangeUnits.vi"/>
 			<Item Name="Profile_ReadGUI.vi" Type="VI" URL="../Sources/Profile_ReadGUI.vi"/>
 		</Item>
@@ -92,20 +92,13 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="AH_FileCheck.vi" Type="VI" URL="../Sources/AH_FileCheck.vi"/>
-			<Item Name="AH_OPEN.vi" Type="VI" URL="../Sources/AH_OPEN.vi"/>
 			<Item Name="AH_OpenFile.vi" Type="VI" URL="../Sources/AH_OpenFile.vi"/>
-			<Item Name="Config_CheckHardware.vi" Type="VI" URL="../Sources/Config_CheckHardware.vi"/>
-			<Item Name="Config_LoadCreate.vi" Type="VI" URL="../Sources/Config_LoadCreate.vi"/>
-			<Item Name="Config_LoadKeys.vi" Type="VI" URL="../Sources/Config_LoadKeys.vi"/>
-			<Item Name="Config_OpenMake.vi" Type="VI" URL="../Sources/Config_OpenMake.vi"/>
-			<Item Name="Config_Populate.vi" Type="VI" URL="../Sources/Config_Populate.vi"/>
-			<Item Name="Config_SaveKeys.vi" Type="VI" URL="../Sources/Config_SaveKeys.vi"/>
+			<Item Name="Config_Cluster.ctl" Type="VI" URL="../Sources/Config_Cluster.ctl"/>
+			<Item Name="GEN_WriteStatus.vi" Type="VI" URL="../Sources/GEN_WriteStatus.vi"/>
+			<Item Name="LCR_Logfile.vi" Type="VI" URL="../Sources/LCR_Logfile.vi"/>
 			<Item Name="LibDan.lvlib" Type="Library" URL="../Library/LibDan.lvlib"/>
-			<Item Name="LibDan.lvlib" Type="Library" URL="/F/SmallWinPC/Labview/PyroServer/Library/LibDan.lvlib"/>
 			<Item Name="RES_HPRead.vi" Type="VI" URL="../Sources/RES_HPRead.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

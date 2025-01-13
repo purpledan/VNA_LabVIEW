@@ -6,7 +6,7 @@
 	<Item Name="Config" Type="Folder">
 		<Item Name="ConfClose.vi" Type="VI" URL="../ConfClose.vi"/>
 		<Item Name="ConfOpen.vi" Type="VI" URL="../ConfOpen.vi"/>
-		<Item Name="ConfRead.vi" Type="VI" URL="/F/SmallWinPC/Labview/PyroServer/Library/ConfRead.vi"/>
+		<Item Name="ConfRead.vi" Type="VI" URL="../ConfRead.vi"/>
 		<Item Name="ConfWrite.vi" Type="VI" URL="../ConfWrite.vi"/>
 	</Item>
 	<Item Name="Network" Type="Folder">
