@@ -39,12 +39,17 @@
 			<Item Name="Profile_Write.vi" Type="VI" URL="../Sources/Profile_Write.vi"/>
 			<Item Name="Untitled 4.vi" Type="VI" URL="../Sources/Untitled 4.vi"/>
 		</Item>
+		<Item Name="VNA" Type="Folder">
+			<Item Name="SetFormat.vi" Type="VI" URL="../VIs/VNA/SetFormat.vi"/>
+		</Item>
 		<Item Name="GetGlobals.vi" Type="VI" URL="../Sources/GetGlobals.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Measurement_Cluster.ctl" Type="VI" URL="../Sources/Measurement_Cluster.ctl"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../Sources/Mode_Enum.ctl"/>
 		<Item Name="Plotting-Axis.ctl" Type="VI" URL="../Sources/Plotting-Axis.ctl"/>
 		<Item Name="Status_Byte.ctl" Type="VI" URL="../Sources/Status_Byte.ctl"/>
+		<Item Name="TestVI.vi" Type="VI" URL="../Sources/TestVI.vi"/>
+		<Item Name="Trigger.vi" Type="VI" URL="../VIs/VNA/Trigger.vi"/>
 		<Item Name="UnitEnum.ctl" Type="VI" URL="../Sources/UnitEnum.ctl"/>
 		<Item Name="VNA_DataType.ctl" Type="VI" URL="../VNA_DataType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
