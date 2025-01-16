@@ -40,7 +40,10 @@
 			<Item Name="Untitled 4.vi" Type="VI" URL="../Sources/Untitled 4.vi"/>
 		</Item>
 		<Item Name="VNA" Type="Folder">
+			<Item Name="InsertData.vi" Type="VI" URL="../VIs/VNA/InsertData.vi"/>
+			<Item Name="ReadVNA.vi" Type="VI" URL="../VIs/VNA/ReadVNA.vi"/>
 			<Item Name="SetFormat.vi" Type="VI" URL="../VIs/VNA/SetFormat.vi"/>
+			<Item Name="Trigger.vi" Type="VI" URL="../VIs/VNA/Trigger.vi"/>
 		</Item>
 		<Item Name="GetGlobals.vi" Type="VI" URL="../Sources/GetGlobals.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
@@ -49,7 +52,6 @@
 		<Item Name="Plotting-Axis.ctl" Type="VI" URL="../Sources/Plotting-Axis.ctl"/>
 		<Item Name="Status_Byte.ctl" Type="VI" URL="../Sources/Status_Byte.ctl"/>
 		<Item Name="TestVI.vi" Type="VI" URL="../Sources/TestVI.vi"/>
-		<Item Name="Trigger.vi" Type="VI" URL="../VIs/VNA/Trigger.vi"/>
 		<Item Name="UnitEnum.ctl" Type="VI" URL="../Sources/UnitEnum.ctl"/>
 		<Item Name="VNA_DataType.ctl" Type="VI" URL="../VNA_DataType.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -86,6 +88,7 @@
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -99,11 +102,10 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Config_Cluster.ctl" Type="VI" URL="../../AH25_LabVIEW/Sources/Config_Cluster.ctl"/>
 			<Item Name="Config_Cluster.ctl" Type="VI" URL="../Sources/Config_Cluster.ctl"/>
-			<Item Name="GEN_WriteStatus.vi" Type="VI" URL="../Sources/GEN_WriteStatus.vi"/>
-			<Item Name="LCR_Logfile.vi" Type="VI" URL="../Sources/LCR_Logfile.vi"/>
+			<Item Name="GEN_WriteStatus.vi" Type="VI" URL="../../AH25_LabVIEW/Sources/GEN_WriteStatus.vi"/>
 			<Item Name="LibDan.lvlib" Type="Library" URL="../Library/LibDan.lvlib"/>
-			<Item Name="RES_HPRead.vi" Type="VI" URL="../Sources/RES_HPRead.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
