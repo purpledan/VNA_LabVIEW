@@ -30,8 +30,8 @@
 		</Item>
 		<Item Name="Plotting" Type="Folder">
 			<Item Name="LCR_BundleForPlot.vim" Type="VI" URL="../Sources/LCR_BundleForPlot.vim"/>
-			<Item Name="LCR_PlotHelper.vi" Type="VI" URL="../Sources/LCR_PlotHelper.vi"/>
 			<Item Name="LCR_PlotNamer.vi" Type="VI" URL="../Sources/LCR_PlotNamer.vi"/>
+			<Item Name="PlotHelper.vi" Type="VI" URL="../Sources/PlotHelper.vi"/>
 		</Item>
 		<Item Name="Profile" Type="Folder">
 			<Item Name="Profile_Read.vi" Type="VI" URL="../Sources/Profile_Read.vi"/>
