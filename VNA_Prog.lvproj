@@ -27,6 +27,7 @@
 			<Item Name="GEN_TimerPerS.vi" Type="VI" URL="../Sources/GEN_TimerPerS.vi"/>
 			<Item Name="LCR_AutoChangeUnits.vi" Type="VI" URL="../Sources/LCR_AutoChangeUnits.vi"/>
 			<Item Name="Profile_ReadGUI.vi" Type="VI" URL="../Sources/Profile_ReadGUI.vi"/>
+			<Item Name="SelectSpectrum.vi" Type="VI" URL="../VIs/VNA/SelectSpectrum.vi"/>
 		</Item>
 		<Item Name="Plotting" Type="Folder">
 			<Item Name="LCR_BundleForPlot.vim" Type="VI" URL="../Sources/LCR_BundleForPlot.vim"/>
@@ -46,6 +47,7 @@
 			<Item Name="Trigger.vi" Type="VI" URL="../VIs/VNA/Trigger.vi"/>
 		</Item>
 		<Item Name="GetGlobals.vi" Type="VI" URL="../Sources/GetGlobals.vi"/>
+		<Item Name="GUITest.vi" Type="VI" URL="../Sources/GUITest.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Measurement_Cluster.ctl" Type="VI" URL="../Sources/Measurement_Cluster.ctl"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../Sources/Mode_Enum.ctl"/>
@@ -84,6 +86,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Multi Error Cluster.lvlib" Type="Library" URL="/&lt;vilib&gt;/MultiError/TokenizeJSON/Multi Error Cluster.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -106,6 +109,8 @@
 			<Item Name="Config_Cluster.ctl" Type="VI" URL="../Sources/Config_Cluster.ctl"/>
 			<Item Name="GEN_WriteStatus.vi" Type="VI" URL="../../AH25_LabVIEW/Sources/GEN_WriteStatus.vi"/>
 			<Item Name="LibDan.lvlib" Type="Library" URL="../Library/LibDan.lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Mode_Enum.ctl" Type="VI" URL="../../AH25_LabVIEW/Sources/Mode_Enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
