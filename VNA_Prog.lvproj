@@ -51,6 +51,7 @@
 		<Item Name="Measurement_Cluster.ctl" Type="VI" URL="../Sources/Measurement_Cluster.ctl"/>
 		<Item Name="Mode_Enum.ctl" Type="VI" URL="../Sources/Mode_Enum.ctl"/>
 		<Item Name="Plotting-Axis.ctl" Type="VI" URL="../Sources/Plotting-Axis.ctl"/>
+		<Item Name="RampTrigger.vi" Type="VI" URL="../Sources/RampTrigger.vi"/>
 		<Item Name="Status_Byte.ctl" Type="VI" URL="../Sources/Status_Byte.ctl"/>
 		<Item Name="TestVI.vi" Type="VI" URL="../Sources/TestVI.vi"/>
 		<Item Name="UnitEnum.ctl" Type="VI" URL="../Sources/UnitEnum.ctl"/>
