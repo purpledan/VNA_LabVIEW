@@ -45,6 +45,7 @@
 			<Item Name="SetFormat.vi" Type="VI" URL="../VIs/VNA/SetFormat.vi"/>
 			<Item Name="Trigger.vi" Type="VI" URL="../VIs/VNA/Trigger.vi"/>
 		</Item>
+		<Item Name="FakeGlobals.vi" Type="VI" URL="../Sources/FakeGlobals.vi"/>
 		<Item Name="GetGlobals.vi" Type="VI" URL="../Sources/GetGlobals.vi"/>
 		<Item Name="GUITest.vi" Type="VI" URL="../Sources/GUITest.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
@@ -118,6 +119,48 @@
 			<Item Name="LibDan.lvlib" Type="Library" URL="../Library/LibDan.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="main" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{11CCA39D-D19A-418C-BA62-981C36185C2E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{37B60131-04CD-4B8A-ADD9-33AD03CBAEBB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{176DF93D-AEF8-4A3A-B216-23336F14C840}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">main</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/main</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C16C78CD-CFBE-487C-83FD-1768D3BAE13E}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/main/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/main/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BA3497FD-E9D5-4110-A2AF-2D2295913324}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Nelson Mandela University</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">main</Property>
+				<Property Name="TgtF_internalName" Type="Str">main</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Nelson Mandela University</Property>
+				<Property Name="TgtF_productName" Type="Str">main</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{29398A62-AF99-46CA-8305-D774471D1774}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
